@@ -22,10 +22,14 @@
     .footer-col:first-child {
         margin-bottom: 0;
     }
+
+    .header-arrow {
+        bottom: 50px;
+    }
 }
 
 /* Для экранов с шириной до 760px */
-@media (max-width:760px) {    
+@media (max-width:760px) {
     .header-title {
         font-size: 32px;
     }
@@ -116,5 +120,9 @@
         padding: 0 10px;
         width: 100%;
         max-width: 320px;
+    }
+
+    .header-arrow {
+        bottom: 50px;
     }
 }
