@@ -1,5 +1,8 @@
 /* Для экранов с шириной до 1140px */
 @media (max-width:1140px) {
+    .header {
+        background-attachment: fixed;
+    }
     .card {
         width: calc(50% - 15px);
     }
@@ -26,6 +29,10 @@
 
 /* Для экранов с шириной до 760px */
 @media (max-width:760px) {
+    .header {
+        background-attachment: fixed;
+    }
+    
     .header-title {
         font-size: 32px;
     }
